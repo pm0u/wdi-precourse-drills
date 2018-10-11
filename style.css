@@ -21,14 +21,6 @@ a:hover {
 	color:pink;
 }
 
-.content li {
-	display: inline-block;
-}
-
-.content li img {
-	border: 1px solid black;
-}
-
 
 nav li {
 	display: inline-block;
@@ -60,6 +52,7 @@ header {
 	top: 40px;
 	background-color: rgba( 255, 255, 255, .8);
 }
+
 .content p {
 	font-size: 18px;
 }
@@ -78,26 +71,17 @@ header {
 	padding 10px;
 }
 
-div.index-images {
-	position: relative;
-}
 
-div #first-image {
-	width: 100px;
-	height:200px;
-	position:relative;
-	padding: 0px;
-	border: 2px solid black;
-}
 
 img.mustache {
 	height: 50px;
 	width: 100px;
 	position: absolute;
+	border: 0px;
 }
 
-#m1 {
-	top: 100px;
+#m3 {
+	top: 300px;
 	left: 20px;
 }
 
@@ -107,4 +91,12 @@ img.mustache {
 	margin:auto;
 	width:100%;
 	bottom:0;
+}
+
+div.index-images li {
+	display: inline-block;
+}
+
+.content#index-images li {
+	position: relative;
 }
