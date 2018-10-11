@@ -71,20 +71,6 @@ header {
 	padding 10px;
 }
 
-
-
-img.mustache {
-	height: 50px;
-	width: 100px;
-	position: absolute;
-	border: 0px;
-}
-
-#m3 {
-	top: 300px;
-	left: 20px;
-}
-
 .footer {
 	position:absolute;
 	height: 50px;
@@ -93,10 +79,6 @@ img.mustache {
 	bottom:0;
 }
 
-div.index-images li {
+.content li {
 	display: inline-block;
-}
-
-.content#index-images li {
-	position: relative;
 }
